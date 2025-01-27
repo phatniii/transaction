@@ -75,7 +75,7 @@ Widget build(BuildContext context) {
                       const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
                   child: ListTile(
                       title: Text(data.title),
-                      subtitle: Text('วันที่เพิ่มข้อมูล'),
+                      subtitle: Text(data.datetime.toString()),
                       leading: CircleAvatar(
                           child: FittedBox(
                         child: Text(data.amount.toString()),
